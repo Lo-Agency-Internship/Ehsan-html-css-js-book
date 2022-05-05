@@ -1,87 +1,83 @@
 /* import fonts from google*/
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap');
 
-
 body {
-    margin: 0;
-    font-size: 23px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+  margin: 0;
+  font-size: 23px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.mother {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: stretch;
+}
 }
 
 /* Right div style*/
-
 .right {
-
-     float: right;
-     background-color: #ffffff;
-    width: 50%;
-    height: 700px;
-
-
-    /* Left div style*/
+  background-color: #ffffff;
+  width: 50%;
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  overflow-y: scroll;
+  /* Left div style*/
 }
 
 .left {
-    background-color: #ffffff;
-    width: 50%;
-    height: 700px;
-    float: left;
-
+  background-color: #ffffff;
+  width: 153%;
+  height: 100vh;
+  flex: 0 1 auto;
+  align-self: auto;
 }
 
 /* p style*/
-
 p {
-    width: auto;
-    height: 100px;
-    margin-bottom: 20px;
-    background-color: #2F3041;
-    color: #ffffff;
-    border-radius: 30px;
-    margin: 40px 5px;
-    padding: 20px;
-    font-size: 20px;
-
-
-    /* p hover style*/
-
+  width: auto;
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: #2F3041;
+  color: #ffffff;
+  border-radius: 30px;
+  margin: 40px 5px;
+  padding: 20px;
+  font-size: 20px;
+  /* p hover style*/
 }
 
 p:hover {
-    color: rgb(255, 251, 251);
-    transition: 0.7s;
-    cursor: none;
-    background-color: #020207;
+  color: rgb(255, 251, 251);
+  transition: 0.7s;
+  cursor: none;
+  background-color: #020207;
 }
 
-
 li {
-    list-style-type: none;
-    margin-bottom: 50px;
-
+  list-style-type: none;
+  margin-bottom: 50px;
 }
 
 /* a style*/
-
 a {
-    text-decoration: none;
-    width: 200px;
-    height: 200px;
-    color: black;
-
+  text-decoration: none;
+  width: 200px;
+  height: 200px;
+  color: black;
 }
 
 /* a hover style*/
 a:hover {
-    color: rgb(255, 251, 251);
-    transition: 0.7s;
-    transition-timing-function: ease-in-out;
-    width: 800px;
-    height: 800px;
-    padding: 10px;
-    background-color: #2F3041;
-    border-radius: 30px;
-
-
-
+  color: rgb(255, 251, 251);
+  transition: 0.7s;
+  transition-timing-function: ease-in-out;
+  width: 800px;
+  height: 800px;
+  padding: 10px;
+  background-color: #2F3041;
+  border-radius: 30px;
 }
